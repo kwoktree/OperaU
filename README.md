@@ -1,0 +1,4 @@
+OperaU
+======
+
+Opera SimpleU Edition
