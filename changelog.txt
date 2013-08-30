@@ -1602,6 +1602,8 @@ div class="search_results_ad">
 <div class="not_found_ad">
 
 CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+div[class*="ad_top"],http://www.cbg.cn/2013/0827/82753.shtml 顶部，<div class="head_top_1">，所以改为：div[class^="ad_top"],
+div[class$="_banner"],http://www.cbg.cn/2013/0827/82753.shtml 播放器误过滤。<div class="bo_banner">
 /* rem div[class*="-ad-"], 百度通知 */
 ,div[class="banner_box"] http://vod.kcplayer.com/
 div[id$="_pop"],去玩购物车误杀删除后的弹出框显示
